@@ -1,3 +1,0 @@
-celc = float(input('Wprowadź temperaturę w stopniach celcjusza'))
-fahr = (9 * celc ) / 5 + 32
-print(fahr)
