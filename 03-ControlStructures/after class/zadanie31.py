@@ -8,11 +8,12 @@ y = 2
 Point P(5,2) is in the first quadrant of the coordinate system
 '''
 x,y=1,2
-print(x,y)
 
-i = 0
-line = ''
-while i<10:
-    line+='*'
-
-print(line)
+if x>0 and y>0:
+    print("First")
+if x<0 and y>0:
+    print("Second")
+if x<0 and y<0:
+    print("Third")
+if x>0 and y<0:
+    print("Fourth")
