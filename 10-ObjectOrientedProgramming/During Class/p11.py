@@ -14,7 +14,7 @@ f.	Show TV status
 '''
 
 class TV():
-    def __init__(self,is_on=True):
+    def __init__(self,is_on=False):
         self.is_on = is_on
         
     def turn_on(self):
@@ -24,7 +24,12 @@ class TV():
         self.is_on = False
 
     def show_status(self):
-        return f'TV is on'if self.is_on else 'TV if off'
+        return 'TV is on'if self.is_on else 'TV if off'
     
 
 telewizor = TV()
+print(telewizor.show_status())
+telewizor.turn_on()
+print(telewizor.show_status())
+telewizor.turn_off()
+print(telewizor.show_status())
