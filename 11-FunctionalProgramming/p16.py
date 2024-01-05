@@ -10,8 +10,3 @@ stock = [(20,5.50),(15,8.30),(37,3.85),(4,11.60)]
 
 result = sum(list(map(lambda x: x[0]*x[1],stock)))
 print(result)
-# suma = 0
-# for i in stock:
-#     suma+=stock[i][0]*stock[i][1]
-
-# print(suma)

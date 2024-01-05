@@ -25,7 +25,7 @@ def tolerance(bottle):
 def checker(tolerance):  # bo
     if tolerance[0] == '500': 
         if tolerance[1] >= -2 and tolerance[1] <= 2: 
-            return (tolerance,True)
+            return (True)
     
     if tolerance[0] == '1000':
         if tolerance[1] >= -3 and tolerance[1] <= 3:
